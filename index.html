@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Azure Jenkins CI/CD Demo</title>
+    <title>Azure Jenkins CI/CD Demo - v2</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #0078d4, #00bcf2);
+            background: linear-gradient(135deg, #512bd4, #00bcf2);
             color: white;
             text-align: center;
             padding-top: 80px;
@@ -22,7 +22,7 @@
         }
 
         h1 {
-            color: #0078d4;
+            color: #512bd4;
         }
 
         .status {
@@ -30,6 +30,15 @@
             color: white;
             padding: 10px;
             border-radius: 8px;
+            display: inline-block;
+        }
+
+        .version {
+            background: #0078d4;
+            color: white;
+            padding: 8px;
+            border-radius: 8px;
+            margin-top: 15px;
             display: inline-block;
         }
 
@@ -43,15 +52,17 @@
 <body>
 
 <div class="card">
+
     <h1>Azure Jenkins CI/CD Deployment</h1>
 
     <p>
-        This website is deployed automatically using:
+        This website has been updated automatically through the CI/CD pipeline.
     </p>
 
     <ul style="text-align:left;">
-        <li>GitHub</li>
+        <li>GitHub Repository</li>
         <li>Jenkins Pipeline</li>
+        <li>Azure Container Registry</li>
         <li>Azure Storage File Share</li>
         <li>Azure Container Instance</li>
         <li>NGINX</li>
@@ -61,9 +72,16 @@
         Deployment Successful
     </div>
 
+    <br>
+
+    <div class="version">
+        Version 2 - Updated via GitHub Push
+    </div>
+
     <footer>
-        Updated through Jenkins automation
+        Updated automatically by Jenkins CI/CD
     </footer>
+
 </div>
 
 </body>
