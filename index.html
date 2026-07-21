@@ -1,2 +1,70 @@
-<h1>Hello from Jenkins CI/CD</h1>
-<p>This page was deployed automatically through GitHub, Jenkins, and Azure ACI.</p>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Azure Jenkins CI/CD Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0078d4, #00bcf2);
+            color: white;
+            text-align: center;
+            padding-top: 80px;
+        }
+
+        .card {
+            background: white;
+            color: #333;
+            width: 500px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            color: #0078d4;
+        }
+
+        .status {
+            background: #28a745;
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+    <h1>Azure Jenkins CI/CD Deployment</h1>
+
+    <p>
+        This website is deployed automatically using:
+    </p>
+
+    <ul style="text-align:left;">
+        <li>GitHub</li>
+        <li>Jenkins Pipeline</li>
+        <li>Azure Storage File Share</li>
+        <li>Azure Container Instance</li>
+        <li>NGINX</li>
+    </ul>
+
+    <div class="status">
+        Deployment Successful
+    </div>
+
+    <footer>
+        Updated through Jenkins automation
+    </footer>
+</div>
+
+</body>
+</html>
