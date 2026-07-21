@@ -4,7 +4,7 @@ pipeline {
 
   environment {
     AZ_ACCOUNT = 'waxjenkinsstorage123'
-    AZ_SHARE   = 'webcontent'
+    AZ_SHARE   = 'jenkins-share'
   }
 
   stages {
