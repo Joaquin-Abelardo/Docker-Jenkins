@@ -7,7 +7,7 @@ pipeline {
 
   environment {
 
-    AZ_ACCOUNT = '<youruniquestorage>'   // same as $STG
+    AZ_ACCOUNT = 'waxjenkinsstorage123'   // same as $STG
 
     AZ_SHARE   = 'webcontent'
 
